@@ -1,2 +1,140 @@
-# E-Commerce-Data-ZoomCharts-Nov-2025
-This dashboard was created as my submission for the ZoomCharts November'25 Mini Challenge. 
+# 🛍️ E-Commerce Analytics Dashboard – ZoomCharts Mini Challenge (Nov 2025)
+
+🧭 Overview
+------
+
+This dashboard was developed as part of the **ZoomCharts November 2025 Mini Challenge**, focused on analyzing an **E-Commerce dataset** containing event-level sales, customer, and product information.  
+The objective was to design an **interactive and insight-driven Power BI report** that highlights key business metrics such as revenue realization, order performance, product trends, and channel contributions.
+
+🔗 **Dashboard Link:** *Coming Soon...*
+
+------
+
+The project uses three primary tables:
+
+- 🧾 **Events:** Order, revenue, and transactional details  
+- 🛒 **Products:** Product categories, pricing models, and subscription details
+- 👥 **Customers:** Demographics, acquisition channels, and regional information  
+
+A custom **Dates table** was created using DAX to support time intelligence, fiscal periods, and proper month-year sorting.
+
+
+🧮 Key Measures (DAX)
+------
+
+The report includes a comprehensive measure layer to track performance and comparisons:
+
+- 💰 Total Revenue USD  
+- 🧾 Total Order Value USD  
+- 🧍 Total Customers  
+- 📦 Total Orders  
+- 📊 Revenue Per Customer  
+- 🔁 Month-over-Month (MoM %) and Year-over-Year (YoY %) growth  
+- ⏪ Previous Month Revenue and Previous Month Orders  
+- 📈 Total Quantity Ordered, Total Quantity Sold, and Total Products  
+- 🧭 Progress and share metrics: Filtered % of Total Revenue, Remaining % of Total Revenue  
+- ✅ Validation flags: Has Data, Has Data 2  
+
+
+📊 Dashboard Pages
+------
+
+1️⃣ Executive Summary
+------
+
+- **KPI Cards:** Total Revenue USD, Total Customers, Total Events, Products, and Total Quantity Sold  
+- **Revenue Realization Chart:** Line chart comparing *Total Order Value USD* vs *Final Revenue USD* by month  
+- **Cash Flow Drivers:** Donut chart showing *Annual vs Monthly vs One-time billing contributions*  
+- **Resale Model Breakdown:** Donut chart comparing *Direct Resale*, *Marketplace*, and *Affiliate* revenue  
+- **Top 10 Products:** Matrix table displaying highest revenue-generating products  
+- **Order Drivers:** Column chart showing which channels drive the most orders  
+- **Floating Insight Ticker:** Continuous HTML text bar summarizing key insights  
+- **Filter Slicers:** Date slicers and “Is Refunded” filter  
+
+2️⃣ Product Performance
+------
+
+- Displays key metrics such as Total Revenue, Total Orders, Monthly Revenue and Orders with previous month comparisons  
+- Highlights top-performing items such as Top Vendor, Category, and Product  
+- **Donut Chart:** Shows where most units are sold  
+- **Table Chart:** Displays product-wise vendor, orders, and revenue data  
+- **Hierarchical Bar Chart:** *Category → Product Name* showing order performance  
+- **Filter Slicers:** Date slicer, Country, and “Is Refunded” filter  
+
+3️⃣ Customer Summary
+------
+
+- **KPI Cards:** Total Customers and Total Revenue Generated  
+- **Donut Charts:** Channel-wise and age-wise customer distribution  
+- **Top 100 Customers Table:** Displays Customer ID, Country, Orders, Revenue (USD), and Quantity Sold  
+- **Map Visual:** Shows customer distribution by country and region (APAC, EU, LATAM, NA)  
+- **Column Chart:** Visualizes Total Customers or Revenue per Customer over time  
+- **Filter Slicers:** Date slicers and “Is Refunded” filter  
+
+💡 Floating Insight (HTML Marquee)
+------
+
+A unique feature of the dashboard is a **floating insight ticker** created using the **HTML Content visual** with a custom DAX measure.  
+It scrolls continuously across all pages, summarizing monthly insights and key performance highlights.
+
+🧠 DAX Code Snippet
+------
+
+```DAX
+FloatingInsightHTML =
+"<marquee behavior='scroll' direction='left' scrollamount='8' style='font-family: Segoe UI; font-size:23px; color:#FFFFFF;'>
+Revenue realization remains consistent with an average monthly revenue of about $515K against an average order value of $1.22M, indicating a strong conversion rate. 
+| Organic channels continue to drive the highest orders (3,965), followed by Paid Search and Social. 
+| Annual billing leads cash flow generation with $8.27M, showing strong long-term customer commitments. 
+| Direct resale remains the primary source of revenue at $5.87M, while Marketplace and Affiliate models follow behind. 
+| Microsoft 365 Business Standard Annual retains the top spot with $424K in revenue, supported by Azure AI Studio and Adobe product lines driving steady growth. 
+</marquee>"
+
+```
+
+🏁 Outcome
+-------
+
+This project demonstrates advanced DAX modeling, Power BI dashboard design, and data storytelling for e-commerce analytics.
+The combination of interactive visuals, dynamic metrics, and a real-time floating insight ticker delivers a professional and engaging reporting experience.
+
+📸 Dashboard Pages
+------
+
+Executive Summary: 
+<img width="1912" height="1079" alt="Slide4" src="https://github.com/user-attachments/assets/9c7bef13-a9e3-4da6-88df-dea4e07d923a" />
+
+Product Summary: 
+<img width="1912" height="1079" alt="Slide5" src="https://github.com/user-attachments/assets/1f1726cd-cb4d-43bf-98f2-dbf85a4124b5" />
+
+Customers Summary: 
+<img width="1912" height="1079" alt="Slide6" src="https://github.com/user-attachments/assets/7da1d446-f7a6-4540-ac81-ce5a128de534" />
+
+🧱 Data Model
+------
+<img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/6bcb473e-e40f-4cd0-8ab7-aa1de6986ebf" />
+
+🎨 Figma Background: 
+------
+<img width="500" height="900" alt="EXECUTIVE" src="https://github.com/user-attachments/assets/91158cc4-0abb-44c5-9918-3b206282c6c7" />
+<img width="500" height="900" alt="PRODUCTS" src="https://github.com/user-attachments/assets/bfc8fee4-1d17-482f-9950-98571945cedd" />
+<img width="500" height="900" alt="CUSTOMERS" src="https://github.com/user-attachments/assets/4f5c48b1-30ef-490b-b407-3cb2472bcc99" />
+
+🧰 Tools Used: 
+------
+
+| Tools | Used For |
+| -------- |---------- |
+| Microsoft Power BI | Dashboard creation, DAX measures and Analysis |
+| ZOOMCHARTS | For Drill-down interaction |
+| Excel | For Dataset Extraction |
+| Power Query | For Cleaning and Transformation | 
+| Figma | Dashboard Background and design |
+| HTML | For Floating Ticker | 
+| Microsoft PowerPoint | Documentation | 
+
+
+
+
+
+
