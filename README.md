@@ -82,7 +82,7 @@ It scrolls continuously across all pages, summarizing monthly insights and key p
 
 ```DAX
 FloatingInsightHTML =
-"<marquee behavior='scroll' direction='left' scrollamount='8' style='font-family: Segoe UI; font-size:23px; color:#FFFFFF;'>
+"<marquee behavior='scroll' direction='left' scrollamount='8' style='font-family: Segoe UI; font-size:23px; color:#E16815;'>
 Revenue realization remains consistent with an average monthly revenue of about $515K against an average order value of $1.22M, indicating a strong conversion rate. 
 | Organic channels continue to drive the highest orders (3,965), followed by Paid Search and Social. 
 | Annual billing leads cash flow generation with $8.27M, showing strong long-term customer commitments. 
