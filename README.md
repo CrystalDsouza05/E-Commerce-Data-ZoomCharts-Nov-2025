@@ -1,4 +1,4 @@
-# 🛍️ E-Commerce Analytics Dashboard – ZoomCharts Mini Challenge (Nov 2025)
+# 🛍️ E-Commerce Analytics Dashboard – ZoomCharts Mini Challenge (Nov 2025)  <img width="100" height="50" alt="download" src="https://github.com/user-attachments/assets/f006f055-3c61-4f84-bbe4-9353acec0229" />
 
 🧭 Overview
 ------
