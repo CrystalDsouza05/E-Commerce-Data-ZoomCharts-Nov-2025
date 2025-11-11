@@ -6,7 +6,7 @@
 This dashboard was developed as part of the **ZoomCharts November 2025 Mini Challenge**, focused on analyzing an **E-Commerce dataset** containing event-level sales, customer, and product information.  
 The objective was to design an **interactive and insight-driven Power BI report** that highlights key business metrics such as revenue realization, order performance, product trends, and channel contributions.
 
-🔗 [**Dashboard Link:**](https://app.powerbi.com/view?r=eyJrIjoiMTc4MGVmNDMtOThlYi00N2RiLThiY2YtZjI5NjE3NGFiZTNiIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9)
+🔗 [**Dashboard Link:**](https://app.powerbi.com/view?r=eyJrIjoiNTZhYTM0YWItNTk2Yy00MWM3LTg0MWMtMWY2YTc1ZGEwNjhmIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9)
 
 ------
 
